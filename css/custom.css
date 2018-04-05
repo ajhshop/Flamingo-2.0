@@ -1,0 +1,540 @@
+nav.navbar .brand-logo{
+  left: 22px;
+  top: 8px;
+}
+
+nav.navbar ul a{
+  margin: 0 20px;
+}
+
+i{
+      color: #cd1959;
+}
+
+nav.navbar ul.dropdown-content li>a::before, nav.navbar ul.dropdown-content li>span::before, .dropdown-content li>a::before, .dropdown-content li>span::before, .side-nav li>a::before, nav.navbar ul a::before{
+  background-color: #cd1959;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
+}
+
+.btn, .btn-large {
+    text-decoration: none;
+    color: #fff;
+    background-color: #cd1959;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    cursor: pointer;
+
+}
+
+.btn, .btn-large, .btn-flat {
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    padding: 0 10px 0 10px !important;
+}
+
+.btn:hover, .btn-large:hover{
+  background-color: #e84680 !important;
+}
+
+.side-nav {
+    background-color: #fff;
+}
+
+.side-nav li>a {
+    position: relative;
+    color: #000;
+    font-weight: 300;
+    padding: 0 16px;
+    /* text-align: center; */
+}
+
+.header {
+    color: #cd1959;
+}
+
+
+
+.section.light, .page-footer .section.footer-copyright {
+    color: rgba(0,0,0,0.6);
+    background-color: #cd1a59;
+}
+
+.section {
+    position: relative;
+    padding: 64px 0;
+    overflow: hidden;
+    background-color: #312d30;
+    z-index: 3;
+}
+
+.cases img{
+  width: 200px;
+  opacity: 1;
+}
+
+
+.cases img:hover{
+  opacity: 1;
+  transition-duration: 120ms;
+}
+.cases{
+  text-align: center;
+
+}
+
+.avatar-wrapper:hover::after{
+      border-color: #cd1958;
+}
+
+.background-team {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.background-team img{
+  width: 100%;
+}
+
+.section .team {
+    position: relative;
+    padding: 64px 0;
+    height: auto;
+    overflow: hidden;
+    z-index: 3;
+    min-height: 538px;
+}
+
+.card .card-content {
+    padding: 10px;
+    border-radius: 0 0 2px 2px;
+}
+
+.card:hover{
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.card .card-action:last-child {
+    border-radius: 0 0 2px 2px;
+    background-color: #ffffff0a;
+  }
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+.description{
+  font-size: 12px;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: 65vh;
+  background-size: cover;
+  position: relative;
+  background-image: url("/Flamingo%202.0/images/bagground_image.jpg");
+}
+
+#hero:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#hero h1 {
+  margin: 30px 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  z-index: 2;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#hero h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+#hero .btn-get-started {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#hero .btn-get-started:hover {
+  background: #1077d6;
+  border: 2px solid #1077d6;
+}
+
+.fullscreen-video-wrap{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:65vh;
+  overflow:hidden;
+}
+
+#myVideo {
+  min-height:100%;
+ min-width:100%;
+}
+
+.header-overlay{
+  height:65vh;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100vw;
+  z-index:1;
+  background: #0000006e;
+  opacity:0.85;
+}
+
+#open{
+  margin-top: -15px;
+margin-bottom: -20px;
+background-color: #cd1a59;
+}
+#open p{
+    margin: 15px auto;
+  color: #fff;
+      font-weight: 200;
+}
+
+
+nav .nav-wrapper{
+  margin: 0 auto;
+    max-width: 1280px;
+}
+
+.slider2 {
+  width: 100%;
+  top: calc(50% - 97.25px);
+  overflow: hidden;
+  background-color: #cd1958;
+}
+.slider2 .slider-row2 {
+  width: 2956px;
+  height: 125.5px;
+  background-image: url(../images/teknologi_strip.jpg);
+  -webkit-animation: slide 50s linear infinite;
+          animation: slide 50s linear infinite;
+}
+
+
+/*form styles*/
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+
+    /*stacking fieldsets above each other*/
+    position: relative;
+}
+
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+/*inputs*/
+#msform input, #msform textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+}
+
+#msform input:focus, #msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #ee0979;
+    outline-width: 0;
+    transition: All 0.5s ease-in;
+    -webkit-transition: All 0.5s ease-in;
+    -moz-transition: All 0.5s ease-in;
+    -o-transition: All 0.5s ease-in;
+}
+
+/*buttons*/
+#msform .action-button {
+    width: 100px;
+    background: #cd1959;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button:hover, #msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #ee0979;
+}
+
+#msform .action-button-previous {
+    width: 100px;
+    background: #C5C5F1;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button-previous:hover, #msform .action-button-previous:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #C5C5F1;
+}
+
+/*headings*/
+.fs-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/*progressbar*/
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+}
+
+#progressbar li {
+    list-style-type: none;
+    color: #cd1959;
+    text-transform: uppercase;
+    font-size: 9px;
+    width: 33.33%;
+    float: left;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+#progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 24px;
+    height: 24px;
+    line-height: 26px;
+    display: block;
+    font-size: 12px;
+    color: #333;
+    background: white;
+    border-radius: 25px;
+    margin: 0 auto 10px auto;
+}
+
+/*progressbar connectors*/
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: -50%;
+    top: 9px;
+    z-index: -1; /*put it behind the numbers*/
+}
+
+#progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+    content: none;
+}
+
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before, #progressbar li.active:after {
+    background: #cd1959;
+    color: white;
+}
+
+
+/* Not relevant to this form */
+.dme_link {
+    margin-top: 30px;
+    text-align: center;
+}
+.dme_link a {
+    background: #FFF;
+    font-weight: bold;
+    color: #ee0979;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 5px 25px;
+    font-size: 12px;
+}
+
+.dme_link a:hover, .dme_link a:focus {
+    background: #C5C5F1;
+    text-decoration: none;
+}
+
+.btn.modal-trigger{
+  font-weight: 500;
+border: none;
+border-radius: 2px;
+display: inline-block;
+height: 36px;
+line-height: 36px;
+font-size: 20px;
+width: 160px;
+padding: 0 2rem;
+text-transform: uppercase;
+vertical-align: middle;
+-webkit-tap-highlight-color: transparent;
+padding: 0 10px 0 10px !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .fullscreen-video-wrap {
+        height: 45vh;
+    }
+    #hero{
+        height: 45vh;
+    }
+    .header-overlay{
+      height: 45vh;
+    }
+}
