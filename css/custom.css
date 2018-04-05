@@ -294,7 +294,7 @@ nav.navbar ul.dropdown-content li>a::before, nav.navbar ul.dropdown-content li>s
   left:0;
   width:100vw;
   z-index:1;
-  background: #0000006e;
+  background: #0c0c0c9e;
   opacity:0.85;
 }
 
@@ -511,19 +511,19 @@ nav .nav-wrapper{
 }
 
 .btn.modal-trigger{
-  font-weight: 500;
-border: none;
-border-radius: 2px;
-display: inline-block;
-height: 36px;
-line-height: 36px;
-font-size: 20px;
-width: 160px;
-padding: 0 2rem;
-text-transform: uppercase;
-vertical-align: middle;
--webkit-tap-highlight-color: transparent;
-padding: 0 10px 0 10px !important;
+  font-weight: 300;
+      border: none;
+      border-radius: 42px;
+      display: inline-block;
+      height: 53px;
+      line-height: 55px;
+      font-size: 20px;
+      width: 160px;
+      padding: 0 2rem;
+      text-transform: uppercase;
+      vertical-align: middle;
+      -webkit-tap-highlight-color: transparent;
+      padding: 0 10px 0 10px !important;
 }
 
 
